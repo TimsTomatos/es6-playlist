@@ -5,6 +5,7 @@ function playRandom() {
     document.getElementById("randomSong").innerHTML = "Song: " + randomSong.song;
     document.getElementById("randomArtist").innerHTML = "Artist: " + randomSong.artist;
     document.getElementById("randomGenre").innerHTML = "Genre " + randomSong.genre;
+    document.getElementById("randomMusic").innerHTML = `<audio controls> <source src=${randomSong.music} type="audio/mpeg"></audio> `
 console.log(randomSong);
 }
 
