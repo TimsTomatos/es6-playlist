@@ -59,37 +59,43 @@ const data = [
       artist: "Kelii Mccary",
       genre: "Rock",
       song: "I ain't vegan",
-      image: ""
+      image: "",
+      music: ""
     },
     {
         artist: "Panic at the disco",
         genre: "Rock",
         song: "Lying is the most fun a girl can have without taking her clothes off",
-        image: ""
+        image: "",
+        music: ""
     },
     {
         artist: "All Time Low",
         genre: "Rock",
         song: "Coffee Shop",
-        image: ""
+        image: "",
+        music: ""
     },
     {
         artist: "Anberlin",
         genre: "Rock",
         song: "Stationary Stationery",
-        image: ""
+        image: "",
+        music:""
     },
     {
         artist: "Papa Roach",
         genre: "Rock",
         song: "Gravity",
-        image: ""
+        image: "",
+        music: ""
     },
     {
         artist: "Woe is Me",
         genre: "Rock",
         song: "Tik Tok (Cover)",
-        image: ""
+        image: "",
+        music: ""
     },
 
 
@@ -98,36 +104,42 @@ const data = [
         artist: "Kelii Mccary",
         genre:  "Diss Track",
         song: "Lary the Fairy",
-        image: "https://bit.ly/2xDAd7Q"
+        image: "https://bit.ly/2xDAd7Q",
+        music: ""
     },
     {
         artist: "Jeraldy",
         genre: "Diss Track",
         song: "Slim Tim",
-        image: "https://bit.ly/2OBeVyU"
+        image: "https://bit.ly/2OBeVyU",
+        music:""
     },
     {
         artist: "Tomato",
         genre: "Diss Track",
         song: "Kelii the Vegan",
-        image: "https://bit.ly/2QEGGIh"
+        image: "https://bit.ly/2QEGGIh",
+        music:""
     },
     {
         artist: "Kelii",
         genre: "Diss Track",
         song: "Keaka the Mexican",
-        image: "https://bit.ly/2NU7qG8" 
+        image: "https://bit.ly/2NU7qG8", 
+        music: ""
     },
     {
         artist: "Horse Man",
         genre: "Diss Track",
         song: "Horsey Mchorse horse",
-        image: "https://bit.ly/2De8rod"
+        image: "https://bit.ly/2De8rod",
+        music: ""
     },
     {
         artist: "Mcjaren",
         genre: "Diss Track",
         song: "good luck with calculus",
-        image: "https://bit.ly/2xx0cP5"
+        image: "https://bit.ly/2xx0cP5",
+        music:""
     }
 ]
