@@ -26,10 +26,14 @@ function rock () {
     })
     .map(function (genre) {
        return  `
+       <div id="songFeatContainer">
        <img class="songFeat image" src=${genre.image}>
-       <p class="songFeat">artist:${genre.artist}</p>
-       <p class="songFeat">genre:${genre.song}</p>
+       <div id="minorContainer">
+       <p class="songFeat">Artist: ${genre.artist}</p>
+       <p class="songFeat">Genre: ${genre.song}</p>
        <audio controls> <source src=${genre.music} type='audio/mpeg'></audio>
+       </div>
+       </div>
        `
     }) 
     
