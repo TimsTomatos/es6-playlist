@@ -67,35 +67,35 @@ const data = [
         genre: "Rock",
         song: "Lying is the most fun a girl can have without taking her clothes off",
         image: "",
-        music: ""
+        music: "/music/rock/lyingIsTheMostFun.mp3"
     },
     {
         artist: "All Time Low",
         genre: "Rock",
         song: "Coffee Shop",
         image: "",
-        music: ""
+        music: "/music/rock/coffeeShop.mp3"
     },
     {
         artist: "Anberlin",
         genre: "Rock",
         song: "Stationary Stationery",
         image: "",
-        music:""
+        music:"/music/rock/stationary.mp3"
     },
     {
         artist: "Papa Roach",
         genre: "Rock",
         song: "Gravity",
         image: "",
-        music: ""
+        music: "/music/rock/gravity.mp3"
     },
     {
         artist: "Woe is Me",
         genre: "Rock",
         song: "Tik Tok (Cover)",
         image: "",
-        music: ""
+        music: "/music/rock/tikTok.mp3"
     },
 
 

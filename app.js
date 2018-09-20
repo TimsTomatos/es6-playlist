@@ -29,6 +29,7 @@ function rock () {
        <img class="image" src=${genre.image}>
        <p>artist:${genre.artist}</p>
        <p>genre:${genre.song}</p>
+       <audio controls> <source src=${genre.music} type='audio/mpeg'></audio>
        `
     }) 
     
