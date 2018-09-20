@@ -37,4 +37,24 @@ function rock () {
     `
     result.innerHTML = renderRock;
     }
+
+//Meme Dream 
+function memeDream (){
+    var filterMemeDream = data.filter(function (song) {
+        return song.genre === "Meme Dream";
+    })
+    .map(function (genre) {
+        return `
+        <div>${genre.image}
+        <p>artist:${genre.artist}</p>
+        <p>genre:${genre.song}</p>
+        `
+    })
+
+    const renderedMemeDream = `
+    <p>${filterMemeDream}</p>
+    `
+
+    result.innerHTML = renderedMemeDream;
+}
     
