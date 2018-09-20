@@ -25,7 +25,7 @@ const data = [
         artist: "Epic Sax Guy",
         genre: "Meme Dream",
         song: "Epic Saxxing",
-        image: ""
+        image: href='https://bit.ly/2MHHysp'
     },
     {
         artist: "Rick Astely",
