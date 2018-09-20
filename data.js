@@ -25,7 +25,7 @@ const data = [
         artist: "Epic Sax Guy",
         genre: "Meme Dream",
         song: "Epic Saxxing",
-        image: href='https://bit.ly/2MHHysp'
+        image: 'https://bit.ly/2MHHysp'
     },
     {
         artist: "Rick Astely",
@@ -98,36 +98,36 @@ const data = [
         artist: "Kelii Mccary",
         genre:  "Diss Track",
         song: "Lary the Fairy",
-        image: ""
+        image: "https://bit.ly/2xDAd7Q"
     },
     {
         artist: "Jeraldy",
         genre: "Diss Track",
         song: "Slim Tim",
-        image: " "
+        image: "https://bit.ly/2OBeVyU"
     },
     {
         artist: "Tomato",
         genre: "Diss Track",
         song: "Kelii the Vegan",
-        image: ""
+        image: "https://bit.ly/2QEGGIh"
     },
     {
         artist: "Kelii",
         genre: "Diss Track",
         song: "Keaka the Mexican",
-        image: "" 
+        image: "https://bit.ly/2NU7qG8" 
     },
     {
         artist: "Horse Man",
         genre: "Diss Track",
         song: "Horsey Mchorse horse",
-        image: ""
+        image: "https://bit.ly/2De8rod"
     },
     {
         artist: "Mcjaren",
         genre: "Diss Track",
         song: "good luck with calculus",
-        image: ""
+        image: "https://bit.ly/2xx0cP5"
     }
 ]

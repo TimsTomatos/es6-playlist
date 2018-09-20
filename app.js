@@ -7,7 +7,7 @@ var filter = data.filter(function (song){
 })
 .map(function (genre) {
    return  `
-   <div>${genre.image}
+   <img class="image" src=${genre.image}>
    <p>Artist:${genre.artist}<p>
    <p>Song:${genre.song}</p>
    `
@@ -26,7 +26,7 @@ function rock () {
     })
     .map(function (genre) {
        return  `
-       <div>${genre.image}
+       <img class="image" src=${genre.image}>
        <p>artist:${genre.artist}</p>
        <p>genre:${genre.song}</p>
        `
@@ -45,7 +45,7 @@ function memeDream (){
     })
     .map(function (genre) {
         return `
-        <div>${genre.image}
+        <img class="image" src=${genre.image}>
         <p>artist:${genre.artist}</p>
         <p>genre:${genre.song}</p>
         `

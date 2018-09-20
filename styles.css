@@ -22,3 +22,8 @@
     display: flex;
     justify-content: center;
 }
+
+.image {
+    height: 250px;
+    width: 250px;
+}
