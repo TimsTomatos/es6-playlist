@@ -39,5 +39,17 @@ const data = [
         genre: "Diss Track",
         song: "Keaka the Mexican",
         image: "" 
+    },
+    {
+        artist: "Horse Man",
+        genre: "Diss Track",
+        song: "Horsey Mchorse horse",
+        image: ""
+    },
+    {
+        artist: "Mcjaren",
+        genre: "Diss Track",
+        song: "good luck with calculus",
+        image: ""
     }
 ]
