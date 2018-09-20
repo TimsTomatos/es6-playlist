@@ -66,35 +66,35 @@ const data = [
         artist: "Panic at the disco",
         genre: "Rock",
         song: "Lying is the most fun a girl can have without taking her clothes off",
-        image: "",
+        image: "https://bit.ly/2xoWbMs",
         music: "/music/rock/lyingIsTheMostFun.mp3"
     },
     {
         artist: "All Time Low",
         genre: "Rock",
         song: "Coffee Shop",
-        image: "",
+        image: "https://bit.ly/2PVyAKf",
         music: "/music/rock/coffeeShop.mp3"
     },
     {
         artist: "Anberlin",
         genre: "Rock",
         song: "Stationary Stationery",
-        image: "",
+        image: "https://bit.ly/2Dggxwz",
         music:"/music/rock/stationary.mp3"
     },
     {
         artist: "Papa Roach",
         genre: "Rock",
         song: "Gravity",
-        image: "",
+        image: "https://bit.ly/2NogpQm",
         music: "/music/rock/gravity.mp3"
     },
     {
         artist: "Woe is Me",
         genre: "Rock",
         song: "Tik Tok (Cover)",
-        image: "",
+        image: "https://bit.ly/2DdMKod",
         music: "/music/rock/tikTok.mp3"
     },
 
