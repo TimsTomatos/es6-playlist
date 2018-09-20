@@ -7,9 +7,15 @@ var filter = data.filter(function (song){
 })
 .map(function (genre) {
    return  `
-   <img class="image" src=${genre.image}>
-   <p>Artist:${genre.artist}<p>
-   <p>Song:${genre.song}</p>
+   <div id="songFeatContainer">
+       <img class="songFeat image" src=${genre.image}>
+       <div id="minorContainer">
+       <p class="songFeat">Song: ${genre.song}</p>
+       <p class="songFeat">Artist: ${genre.artist}</p>
+       <p clas="songFeat">Genre: ${genre.genre}</p>
+       <audio controls> <source src=${genre.music} type='audio/mpeg'></audio>
+       </div>
+    </div>
    `
 }) 
 
@@ -29,8 +35,9 @@ function rock () {
        <div id="songFeatContainer">
        <img class="songFeat image" src=${genre.image}>
        <div id="minorContainer">
+       <p class="songFeat">Song: ${genre.song}</p>
        <p class="songFeat">Artist: ${genre.artist}</p>
-       <p class="songFeat">Genre: ${genre.song}</p>
+       <p clas="songFeat">Genre: ${genre.genre}</p>
        <audio controls> <source src=${genre.music} type='audio/mpeg'></audio>
        </div>
        </div>
@@ -50,9 +57,15 @@ function memeDream (){
     })
     .map(function (genre) {
         return `
+        <div id="songFeatContainer">
         <img class="image" src=${genre.image}>
-        <p>artist:${genre.artist}</p>
-        <p>genre:${genre.song}</p>
+        <div id="minorContainer">
+        <p class="songFeat">Song: ${genre.song}</p>
+        <p class="songFeat">Artist: ${genre.artist}</p>
+        <p clas="songFeat">Genre: ${genre.genre}</p>
+        <audio controls> <source src=${genre.music} type='audio/mpeg'></audio>
+        </div>
+        </div>
         `
     })
 
