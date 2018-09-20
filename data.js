@@ -59,7 +59,7 @@ const data = [
       artist: "Kelii Mccary",
       genre: "Rock",
       song: "I ain't vegan",
-      image: "",
+      image: "https://bit.ly/2QM5Vbr",
       music: ""
     },
     {

@@ -32,9 +32,10 @@
 #songFeatContainer {
     display: flex;
     flex-direction: row;
+    border: solid;
 }
 
-#minorContainer
+
 .songFeat {
     display: flex;
     flex-direction: column;
