@@ -1,0 +1,14 @@
+#genreBar {
+    display: flex;
+    border: solid;
+    justify-content: space-around;
+}
+
+.genre {
+    border: solid;
+}
+
+#playRandom {
+    display: flex;
+    justify-content: center
+}

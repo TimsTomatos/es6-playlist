@@ -4,14 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css"> 
     <title>Scuffed Music Playlist</title>
 </head>
 <body>
     <h1>My Scuffed Playlist</h1>
-    <h3 onclick="dissTrack()">Sick Diss Tracks</h3>   
-    <h3 onclick="rock()">Rock Beats</h3>
-    <h3 onclick="memeDream()">Meme Dream</h3>
-    
+
+    <div id="genreBar">
+        <h3 class="genre" onclick="dissTrack()">Sick Diss Tracks</h3>   
+        <h3 class="genre" onclick="rock()">Rock Beats</h3>
+        <h3 class="genre" onclick="memeDream()">Meme Dream</h3>
+        <h3 class="genre" onclick="anime()">Anime</h3>
+        <h3 class="genre">
+            <input class="genre" onclick="">
+            <button>Search</button>
+        </h3>
+    </div>
+
+    <br/>
+    <div id="playRandom">
+        <button onclick="playRandom()">Surprise Me!</button>
+    </div>
+        
     <div id="result"></div>
 </body>
 
