@@ -12,16 +12,27 @@
 
     <div id="genreBar">
         <h3 class="genre" onclick="">Home</h3>
-        <h3 class="genre" onclick="dissTrack()">Sick Diss Tracks</h3>   
-        <h3 class="genre" onclick="rock()">Rock Beats</h3>
-        <h3 class="genre" onclick="memeDream()">Meme Dream</h3>
+        <h3 class="genre" onclick="dissTrack()">Diss-Tracks</h3>   
+        <h3 class="genre" onclick="rock()">Rock</h3>
+        <h3 class="genre" onclick="memeDream()">Memes</h3>
         <h3 class="genre" onclick="anime()">Anime</h3>
-        <h3 class="genre" onclick="">EDM </h3>
+        <h3 class="genre" onclick="">EDM</h3>
         <h3 class="genre">
             <input class="genre" onclick="">
             <button>Search</button>
-        </h3>
+        </h3> 
     </div>
+
+
+    <div id="selectedSongContainer"></div>
+    
+    <div id="audio_box"></div>    
+
+    <!-- <canvas id="musicBar"></canvas> -->
+    <div id="mp3_player">
+       
+        <canvas id="analyser_render"></canvas>
+      </div>
 
     <!--<div id="sideBlock">
         <h1>1000000</h1>
@@ -46,7 +57,7 @@
     <div id="result"></div>
 </body>
 
-
+<script src="musicBars.js"></script>
 <script src="data.js"></script> 
 <script src="app.js"></script> 
 <script src="search.js"></script>

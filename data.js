@@ -15,10 +15,11 @@ const data = [
 
     //Meme Dream
     {
-        artist: "Bob Ross",
-        genre: "Meme Dream",
-        song: "Epic Diss Track Beats",
-        image: ""
+        artist: "Ween",
+        genre: "Meme",
+        song: "Ocean Man",
+        image: "",
+        music: "/music/meme/oceanMan.mp3"
     },
 
     {
@@ -34,10 +35,11 @@ const data = [
         image:""
     },
     {
-        artist: "Nyan Cat",
-        genre: "Meme Dream",
-        song: "Nya Nya Nyan Nya Nya",
-        image: ""
+        artist: "Ween",
+        genre: "Meme",
+        song: "Ocean Man",
+        image: "https://i.ytimg.com/vi/tkzY_VwNIek/hqdefault.jpg",
+        music:"/music/meme/oceanMan.mp3"
     },
 
     {
@@ -105,7 +107,7 @@ const data = [
         genre:  "Diss Track",
         song: "Lary the Fairy",
         image: "https://bit.ly/2xDAd7Q",
-        music: ""
+        music: "/music/dissTrack/keliiDissTrack.mp3"
     },
     {
         artist: "Jeraldy",
@@ -140,6 +142,6 @@ const data = [
         genre: "Diss Track",
         song: "good luck with calculus",
         image: "https://bit.ly/2xx0cP5",
-        music:""
+        music:"jarenDissTrack.mp3"
     }
 ]

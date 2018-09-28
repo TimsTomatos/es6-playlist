@@ -77,3 +77,36 @@ To complete Part II, fulfill the following requirements:
 - [filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
 - [map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
 - [innerHTML](https://www.w3schools.com/jsref/prop_html_innerhtml.asp)
+
+Pseudo-code
+- make a for loop that loops through the the array
+- create a div in the for loop that gets the keys of the objects in the array
+  Ex.
+    newDiv = document.createElement
+  Ex.
+    createdDiv = `<h1> ${data.name} </h1>`
+- append created div to the html or div 
+- get id of your audio controls and change the src to genre.music
+
+
+
+
+for (var i = 0; i < data.length; i++) {
+    newDiv =  document.createElement("div")
+    newDiv.innerhtml = 
+    `  <div id="songFeatContainer">
+        <img class="image" src=${genre.image}>
+        <div id="minorContainer">
+        <p class="songFeat">Song: ${genre.song}</p>
+        <p class="songFeat">Artist: ${genre.artist}</p>
+        <p clas="songFeat">Genre: ${genre.genre}</p>
+        </div>
+        </div>
+    `
+    newDiv.addEventListener('click',() => {
+      audioId.src = genre.music;
+    });
+    
+    document.getElementById("genreBar").append(newDiv);
+}
+
