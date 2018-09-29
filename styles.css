@@ -2,7 +2,7 @@
     font-size: 60px;
 }
 
-#ghost {
+.ghost {
     display: none;
 }
 
@@ -93,9 +93,10 @@ bar {
 
 
 #analyser_render {
-    width: 10%;
+    width: 75%;
     height: 20%;
     right: 60%;
+    
     
 }
 

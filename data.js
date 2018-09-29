@@ -112,9 +112,9 @@ const data = [
     {
         artist: "Jeraldy",
         genre: "Diss Track",
-        song: "Slim Tim",
+        song: "Ocean Man",
         image: "https://bit.ly/2OBeVyU",
-        music:""
+        music:"/music/meme/oceanMan.mp3"
     },
     {
         artist: "Tomato",
@@ -142,6 +142,6 @@ const data = [
         genre: "Diss Track",
         song: "good luck with calculus",
         image: "https://bit.ly/2xx0cP5",
-        music:"jarenDissTrack.mp3"
+        music:"/music/dissTrack/jarenDissTrack.mp3"
     }
 ]

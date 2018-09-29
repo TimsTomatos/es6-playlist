@@ -46,7 +46,7 @@ function rock () {
        <p class="songFeat">Song: ${genre.song}</p>
        <p class="songFeat">Artist: ${genre.artist}</p>
        <p class="songFeat">Genre: ${genre.genre}</p>
-       <p id="ghost" class="songFeat"> ${genre.music} </p>
+       <p class="ghost" class="songFeat"> ${genre.music} </p>
        
        </div>
        </div>
@@ -79,7 +79,7 @@ function memeDream (){
         <p class="songFeat">Song: ${genre.song}</p>
         <p class="songFeat">Artist: ${genre.artist}</p>
         <p class="songFeat">Genre: ${genre.genre}</p>
-        <p id="ghost" class="songFeat"> ${genre.music} </p>
+        <p class="ghost" class="songFeat"> ${genre.music} </p>
         </div>
         </div>
         `
@@ -152,6 +152,7 @@ function selectRock(ex) {
    </div>
    </div>
   `
+  //document.querySelector(".ghost").display = "intial";
     
 
     //songMusic.push(audio);
